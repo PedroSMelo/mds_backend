@@ -35,7 +35,7 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
 
    git clone # Projeto Laravel
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="[https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg](https://github.com/PedroSMelo/mds_backend)" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -76,7 +76,7 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
     composer install
 
 3. **Configure o arquivo .env:**
-    
+    ----
     //Como não usamos um banco real configure dessa forma
     ----
     DB_CONNECTION=sqlite
@@ -85,7 +85,7 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
     DB_DATABASE=:memory:
     DB_USERNAME=null
     DB_PASSWORD=null
-    ----
+    
     SESSION_DRIVER=file
     SESSION_LIFETIME=120
     SESSION_ENCRYPT=false
