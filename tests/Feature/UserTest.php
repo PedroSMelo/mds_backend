@@ -10,17 +10,15 @@ use Tests\TestCase;
 
 class UserTest extends TestCase
 {
-    use RefreshDatabase;  // Isso garante que o banco de dados será resetado antes de cada teste.
+    use RefreshDatabase;  
 
     public function testExample()
     {
-        // Cria as tabelas e popula com dados fictícios
-        $this->artisan('migrate');  // Roda as migrations para criar as tabelas
+        $this->artisan('migrate');  
 
-        User::factory()->count(10)->create();  // Cria 10 usuários fictícios
+        User::factory()->count(10)->create();  
 
-        // Agora você pode testar
-        $users = User::all();  // Obtém todos os usuários
-        $this->assertCount(10, $users);  // Verifica se existem 10 usuários
+        $users = User::all(); 
+        $this->assertCount(10, $users);  
     }
 }
